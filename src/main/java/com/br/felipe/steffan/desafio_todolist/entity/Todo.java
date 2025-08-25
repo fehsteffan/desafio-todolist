@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @EnableJpaAuditing
-@Table(name =  = "todos")
+@Table(name = "todos")
 public class Todo {
 
     @Id
